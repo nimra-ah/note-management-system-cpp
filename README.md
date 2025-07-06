@@ -27,8 +27,8 @@ Notes are automatically time-stamped at the time of creation.
 🛠 Tech Stack:
 C++ (Object-Oriented Programming)
 
-STL (<string>, <vector>, <fstream>, <ctime>)
+__ STL (<string>, <vector>, <fstream>, <ctime>)
 
-File handling using binary read/write
+__ File handling using binary read/write
 
-Console-based user interface
+__ Console-based user interface
