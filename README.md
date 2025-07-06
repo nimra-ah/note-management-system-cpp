@@ -1,26 +1,33 @@
-Note Management System - C++ Console Application
-A simple yet powerful console-based Note Management System written in C++ that supports multiple types of notes including:
+📝 Note Management System - C++ Console Application
+A simple yet powerful C++ console-based application that lets you create, edit, save, and load different types of notes including plain text, encrypted notes, and checklists — all with binary file storage and object-oriented design.
 
-PlainText Notes: Create and edit plain text notes with a 1000-character limit.
+🚀 Features
+✅ PlainText Notes
+Write and store freeform text content (up to 1000 characters).
 
-Encrypted Notes: Secure notes with a global password and encrypted content.
+🔐 Encrypted Notes
+Secure sensitive notes with a global password system. Password is required to view or edit content.
 
-Checklist Notes: Manage task lists with completion status for each task.
+📋 Checklist Notes
+Manage to-do lists with task completion tracking (Pending / Completed).
 
-Features:
-Object-oriented design with an abstract base class and derived note types.
+📂 Binary File I/O
+Save and load notes efficiently using binary file operations.
 
-File handling with binary read/write for persistent storage.
+🧠 OOP Design (C++)
+Abstract base class with derived classes implementing specific behaviors.
 
-Password protection for encrypted notes with secure verification.
+🧪 Exception Handling
+Custom Error class used for basic file operation error reporting.
 
-User-friendly menu system for creating, reading, editing, and deleting notes.
+🕓 Auto Timestamping
+Notes are automatically time-stamped at the time of creation.
 
-Input validation and content length restrictions to maintain data integrity.
+🛠 Tech Stack
+C++ (Object-Oriented Programming)
 
-Technologies Used:
-C++ programming language
+STL (<string>, <vector>, <fstream>, <ctime>)
 
-Standard Library components (fstream, string, vector, time)
+File handling using binary read/write
 
-Binary file I/O for efficient note storage
+Console-based user interface
